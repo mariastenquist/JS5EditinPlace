@@ -1,14 +1,22 @@
 .banner {
 
-    background-image:url("https://lh3.googleusercontent.com/-Pvy_WJSYZo8/VG1wLcfeYSI/AAAAAAAAFho/2ImsOee1QC4/s912-Ic42/CAM01578-PANO.jpg");
-    width:auto%;
-    min-height:200px;
+    background-image:url("http://gdurl.com/qJc5");
+    min-height:400px;
 }
-
+h1 {
+	color: chocolate;
+}
+h2 {
+	color: slateblue;
+}
+h3 {
+	color: burlywood;
+	font-style: italic;
+}
 
 img {
 	float: left;
-	margin: 15px;
+	margin: 25px;
 }
 
 .photo {
@@ -23,22 +31,23 @@ img {
 }
 
 .photo p {
-	margin-left: 15px;
-	
+	margin-left: 15px;	
 
-}
-
-.span {
-	font-style: bold
-	color: orangered;
 }
 
 section.details{
 	background-color: teal;
-	/*opacity: 50%*/
-	padding: 20px;
+	padding: 55px;
+	float: left;
 }
 
 section.input {
 	display: inline-block;
+	margin: 20px;
+}
+
+.deer {
+	height: 300px;
+	width: 50%px;
+	float: right;
 }

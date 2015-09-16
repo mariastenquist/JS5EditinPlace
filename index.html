@@ -9,7 +9,7 @@
 	<title></title>
 	</head>
 	<body>
-	<h2>i bjergene </h2>
+	<h1>i bjergene </h1>
 	<h3>(in the mountains, in Danish)</h3>
 	<div ng-controller="mainController">
 		<div class="banner"></div>
@@ -18,24 +18,29 @@
 			<img src="http://placehold.it/100x100">
 			<img src="http://placehold.it/100x100">
 
-			<h1>Gibberish text for the soul {{texta}}</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu dui ac massa posuere blandit. Cras aliquet purus quis nibh semper blandit. Ut odio eros, lobortis id euismod vitae, ultrices vitae ipsum. </p>
+			<h2>Gibberish text for the soul</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu dui ac massa posuere blandit. Cras aliquet purus quis nibh semper blandit. Ut odio eros, lobortis id euismod vitae, ultrices vitae ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu dui ac massa posuere blandit. Cras aliquet purus quis nibh semper blandit. Ut odio eros, lobortis id euismod vitae, ultrices vitae ipsum. </p>
 
-			<p>Nulla viverra sem eget odio elementum imperdiet. Aliquam vitae vehicula diam, in laoreet magna. Nullam at vestibulum mi, ut semper nisi. Sed ut dapibus tellus. Curabitur nec urna porttitor, interdum ante non, pharetra tellus. </p>
+			<p>Nulla viverra sem eget odio elementum imperdiet. Aliquam vitae vehicula diam, in laoreet magna. Nullam at vestibulum mi, ut semper nisi. Sed ut dapibus tellus. Curabitur nec urna porttitor, interdum ante non, pharetra tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu dui ac massa posuere blandit. Cras aliquet purus quis nibh semper blandit. Ut odio eros, lobortis id euismod vitae, ultrices vitae ipsum. </p>
 
-			<p>orem ipsum dolor sit amet, consectetur adipiscing elit. <span>Nulla eu dui ac massa</span>posuere blandit. Cras aliquet purus quis nibh semper blandit.<p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu dui ac massa posuere blandit. Cras aliquet purus quis nibh semper blandit. Ut odio eros, lobortis id euismod vitae, ultrices vitae ipsum.orem ipsum dolor sit amet, consectetur adipiscing elit. <span>Nulla eu dui ac massa</span>posuere blandit. Cras aliquet purus quis nibh semper blandit.<p>
 		</section>
 		<hr>
 		<section class="details">
-			<div ng-show='hideText' ng-click="showInput(1)">{{texta}}</div> 
-			<input ng-hide='hideText' ng-blur="showInput(1)" 
+			<div ng-show='hideText1' ng-click="showInput(1)">{{texta}}</div> 
+			<input ng-hide='hideText1' ng-blur="showInput(1)" 
 			ng-model="texta"></input>
 
 			<div ng-show='hideText2' ng-click="showInput(2)">{{textb}}</div>
 			<input ng-hide='hideText2' ng-blur="showInput(2)" ng-model="textb"></input>
+
+			<div ng-show='hideText3' ng-click="showInput(3)">{{textc}}</div>
+			<input ng-hide='hideText3' ng-blur="showInput(3)" ng-model="textc"></input>
 		
 
 		</section>
+
+		<img class="deer" src="http://gdurl.com/Qkh1">
 	</div>
 
 	<script src="main.js"></script>
