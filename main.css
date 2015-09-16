@@ -1,0 +1,44 @@
+.banner {
+
+    background-image:url("https://lh3.googleusercontent.com/-Pvy_WJSYZo8/VG1wLcfeYSI/AAAAAAAAFho/2ImsOee1QC4/s912-Ic42/CAM01578-PANO.jpg");
+    width:auto%;
+    min-height:200px;
+}
+
+
+img {
+	float: left;
+	margin: 15px;
+}
+
+.photo {
+	display: inline-block;
+
+	
+}
+
+.photo h1 {
+	margin-top: 15px;
+	
+}
+
+.photo p {
+	margin-left: 15px;
+	
+
+}
+
+.span {
+	font-style: bold
+	color: orangered;
+}
+
+section.details{
+	background-color: teal;
+	/*opacity: 50%*/
+	padding: 20px;
+}
+
+section.input {
+	display: inline-block;
+}
